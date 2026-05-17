@@ -1,0 +1,3 @@
+display_name: GPT Image Generate
+short_description: Generate images through configured GPT API.
+default_prompt: Generate an image using the configured GPT-compatible image generation API.
