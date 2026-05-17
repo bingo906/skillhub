@@ -1,8 +1,8 @@
 # SkillHub
 
-一个用于整理和分发 AI 工具 Skills 的仓库。这里会持续收集可直接安装到 Codex、OpenClaw、Hermes 等工具中的本地 Skill。
+这里放的是我个人编写和维护的一些 AI 工具 Skills，主要用于 Codex、OpenClaw、Hermes 等支持本地 Skill / 插件机制的工具。
 
-This repository collects local Skills for AI coding tools such as Codex, OpenClaw, and Hermes. Each Skill is designed to be easy to install, inspect, and reuse.
+This repository contains Skills that I personally build and maintain for AI coding tools such as Codex, OpenClaw, and Hermes.
 
 ---
 
@@ -14,22 +14,34 @@ This repository collects local Skills for AI coding tools such as Codex, OpenCla
 
 ---
 
+## Download / 下载
+
+Packaged Skill zip files are available in [`zip/`](./zip/).
+
+已经打包好的 Skill 压缩包放在 [`zip/`](./zip/) 目录下。
+
+Current package:
+
+- [`gpt-image-generate.zip`](./zip/gpt-image-generate.zip)
+
+---
+
 ## Install / 安装方式
 
-For most users, download the packaged Skill from [`zip/`](./zip/), unzip it locally, then move the extracted Skill folder into your tool's skills directory.
+For most users, download the zip package, unzip it locally, then move the extracted Skill folder into your tool's skills directory.
 
-对大多数用户来说，推荐先到 [`zip/`](./zip/) 目录下载对应 Skill 压缩包，解压后再把 Skill 文件夹放到对应工具的 skills 目录下。
+推荐安装方式：下载压缩包，在本地解压，然后把解压出来的 Skill 文件夹放到对应工具的 skills 目录下。
 
 Steps:
 
-1. Download `gpt-image-generate.zip` from [`zip/`](./zip/)
+1. Download [`gpt-image-generate.zip`](./zip/gpt-image-generate.zip)
 2. Unzip it locally
 3. Move the extracted `gpt-image-generate` folder into your skills directory
 4. Restart Codex, OpenClaw, or Hermes
 
 安装步骤：
 
-1. 从 [`zip/`](./zip/) 下载 `gpt-image-generate.zip`
+1. 下载 [`gpt-image-generate.zip`](./zip/gpt-image-generate.zip)
 2. 在本地解压
 3. 把解压出来的 `gpt-image-generate` 文件夹移动到 skills 目录
 4. 重启 Codex、OpenClaw 或 Hermes
@@ -52,7 +64,7 @@ OpenClaw 或 Hermes 用户，把 Skill 放到对应工具识别的 skills / plug
 
 ---
 
-## Current Highlight / 当前推荐
+## Current Skill / 当前 Skill
 
 ### `gpt-image-generate`
 
